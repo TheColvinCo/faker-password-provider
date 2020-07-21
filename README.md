@@ -2,7 +2,7 @@
 
 Install the package:
 
-`composer req colvin/faker-password-provider`
+`composer req colvin/faker-password-provider --dev`
 
 Define the service in `services.yaml`:
 
