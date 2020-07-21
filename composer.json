@@ -1,0 +1,29 @@
+{
+  "name": "colvin/faker-password-provider",
+  "type": "library",
+  "description": "Faker password provider for Symfony",
+  "keywords": [
+    "faker",
+    "symfony",
+    "password"
+  ],
+  "homepage": "https://github.com/TheColvinCo/faker-password-provider",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "Andrea De Pirro",
+      "email": "andrea.depirro@thecolvinco.com",
+      "homepage": "https://www.thecolvinco.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.3.0",
+    "symfony/security-core": "^5.0",
+    "fzaninotto/faker": "^1.9"
+  },
+  "autoload": {
+    "psr-4": {
+      "Colvin\\": "src/"
+    }
+  }
+}
