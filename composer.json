@@ -22,7 +22,7 @@
   "require": {
     "php": ">=7.3.0",
     "symfony/security-core": "^5.0",
-    "fzaninotto/faker": "^1.9"
+    "fakerphp/faker": "^1.11"
   },
   "autoload": {
     "psr-4": {
